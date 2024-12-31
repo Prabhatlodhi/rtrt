@@ -6,7 +6,7 @@ function App() {
   
   return (
   <>
-    <h1>Y811XeKNo2dIgKoCwDgYPthf =   sds-</h1>
+    <h1> =   sds-</h1>
     <Counter/>
   </>
   )
