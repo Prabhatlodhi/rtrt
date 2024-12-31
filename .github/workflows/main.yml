@@ -36,4 +36,11 @@ jobs:
       - name: Build application
         run: npm run build
 
+          # Deploy to Vercel
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v22
+        with:
+          vercel-token: ${{ secrets.Git }} 
+          working-directory: ./  
+
       # Optionally, you can add deployment steps here
